@@ -421,6 +421,12 @@ h3.tittle {
   width: 80%;
   margin: 1em 0;
 }
+
+.ab-grid.text h5{
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: #000;
+}
 /*--experience-starts--*/
 .experience {
   padding-top: 5em;
@@ -557,6 +563,12 @@ span.circles-text {
   font-size: 1.2em;
   text-transform: uppercase;
 }
+.projects h3{
+  margin: 0;
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 400;
+}
 .cycle{
 	text-align:center;
 }
@@ -584,6 +596,13 @@ span.circles-text {
 	text-transform: uppercase;
 	font-weight: 300;
 	margin: 0;
+}
+.project-grid h5{
+  color: #FFF;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
 }
 .project-grid span{
 	width:70px;
@@ -636,7 +655,7 @@ color:#fff;
 	padding:5em 0;
 }
 h3.tittle.port {
-  color: #fff;
+  color: #000;
 }
 .b-link-stripe{
 	position:relative;
