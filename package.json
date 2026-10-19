@@ -1,0 +1,11 @@
+{
+  "name": "shawns-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "textures": "uv run scripts/textures.py && uv run scripts/comic_art.py",
+    "render": "python3 scripts/render.py",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
