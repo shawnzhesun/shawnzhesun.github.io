@@ -1,9 +1,9 @@
 // Resolved from this module, not the page URL, so images load wherever the site is served.
 const art = name => new URL(`../assets/${name}`, import.meta.url).href;
 export const RECORDS = [
-  { key: 'modern-times', title: 'Modern Times', subtitle: 'SINGLE', art: art('albums/modern-times.webp'), href: 'https://open.spotify.com/track/1I2ffk4W1Rt6vi9Ht8p9Uw', body: 'Gold towers, a burning skyline and two glasses raised to it anyway.' },
-  { key: 'echo-of-tide', title: 'Echo of Tide', subtitle: 'SINGLE', art: art('albums/echo-of-tide.webp'), href: 'https://open.spotify.com/track/4HbKy1HOeyikBuw9zeyz1a', body: 'Headphones on, floating under a breaking wave. The ocean on the poster starts here.' },
-  { key: 'journal', title: 'Journal', subtitle: 'ALBUM · TIDE OF ECHO', art: art('albums/journal.webp'), href: 'https://open.spotify.com/album/2YukUrIciZZ9FmSAp3tRAm', body: 'The Tide of Echo album: static, a caged heart and a storm breaking out of the screen.' },
+  { key: 'modern-times', title: 'Modern Times', subtitle: 'SINGLE', art: art('albums/modern-times.webp'), href: 'https://open.spotify.com/track/1I2ffk4W1Rt6vi9Ht8p9Uw', body: 'History always repeats itself.' },
+  { key: 'echo-of-tide', title: 'Echo of Tide', subtitle: 'LATEST SINGLE · THEME SONG', art: art('albums/echo-of-tide.webp'), href: 'https://open.spotify.com/track/4HbKy1HOeyikBuw9zeyz1a', body: 'The band’s theme song. Each section follows a different part of the day on a rain-swept ocean, using its waves and shifting waters as a metaphor for inner turmoil, self-conflict and, finally, transcendence.' },
+  { key: 'journal', title: 'Journal', subtitle: 'DEBUT EP · 2023', art: art('albums/journal.webp'), href: 'https://open.spotify.com/album/2YukUrIciZZ9FmSAp3tRAm', body: 'Tide of Echo’s debut EP, released in 2023: six tracks, each with its own distinct atmosphere.' },
 ];
 export const LINKEDIN = 'https://www.linkedin.com/in/sunzhe/';
 export const PORTRAIT = art('shawn.webp');
@@ -35,7 +35,7 @@ export const PEDALBOARD = [
 export const MOODS = [{ id:'golden-hour', name:'Sunset' }, { id:'late-night', name:'Late night' }, { id:'warm-tape', name:'Warm tape' }];
 export const PANEL_COPY = {
   badge: { eyebrow:'SAY HELLO / 00', title:'Hi, I’m Shawn.', body:'This is my studio: a guitar, a few too many pedals, and the band on the wall. Come say hello.', note:'Opens LinkedIn in a new tab.' },
-  poster: { eyebrow:'THE BAND / 01', title:'Tide of Echo', body:'Sound comes in waves. This one has a place on the wall.', note:'Journal, the band’s album, is on Spotify.' },
+  poster: { eyebrow:'THE BAND / 01', title:'Tide of Echo', body:'Formed in 2021, Tide of Echo blends indie, post-hardcore, progressive rock and metalcore into one cohesive sound.', note:'Their debut EP, Journal, is on Spotify.' },
   vinyl: { eyebrow:'THE RECORDS / 02', title:'Three on the wall.', body:'Modern Times, Echo of Tide and Journal. Pick one and press play.', note:'Each record opens on Spotify in a new tab.' },
   record: { eyebrow:'ON THE WALL / 02', note:'Opens on Spotify in a new tab.' },
   rack: { eyebrow:'THE SIGNAL CHAIN / 03', title:'A little analog soul.', body:'Mic in, record out. Four classic boxes, in the order the signal meets them.', note:'Preamp, peak control, leveling, then glue.' },
